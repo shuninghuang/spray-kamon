@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="spray-example-build"
+		revision="0.1-SNAPSHOT"
+		extra-sbtVersion="0.13"
+		extra-scalaVersion="2.10"
+		conf="compile"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20140919143420"/>
+	<dependencies>
+		<module organisation="com.typesafe.sbt" name="sbt-aspectj">
+			<revision name="0.9.4" status="release" pubdate="20131114163112" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="1">
+				<metadata-artifact status="no" details="" size="1914" time="0" location="/home/shuning/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-aspectj/ivy-0.9.4.xml" searched="false" origin-is-local="false" origin-location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-aspectj/scala_2.10/sbt_0.13/0.9.4/ivys/ivy.xml"/>
+				<caller organisation="default" name="spray-example-build" conf="compile" rev="0.9.4" rev-constraint-default="0.9.4" rev-constraint-dynamic="0.9.4" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
+				<artifacts>
+					<artifact name="sbt-aspectj" type="jar" ext="jar" status="no" details="" size="62835" time="0" location="/home/shuning/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-aspectj/jars/sbt-aspectj-0.9.4.jar">
+						<origin-location is-local="false" location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-aspectj/scala_2.10/sbt_0.13/0.9.4/jars/sbt-aspectj.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.aspectj" name="aspectjtools">
+			<revision name="1.7.3" status="release" pubdate="20130621201804" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.aspectj.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="2">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2355" time="0" location="/home/shuning/.ivy2/cache/org.aspectj/aspectjtools/ivy-1.7.3.xml" searched="false" origin-is-local="false" origin-location="file:/home/shuning/Downloads/activator-1.2.3/repository/org.aspectj/aspectjtools/1.7.3/ivys/ivy.xml"/>
+				<caller organisation="com.typesafe.sbt" name="sbt-aspectj" conf="compile" rev="1.7.3" rev-constraint-default="1.7.3" rev-constraint-dynamic="1.7.3" callerrev="0.9.4"/>
+				<artifacts>
+					<artifact name="aspectjtools" type="jar" ext="jar" status="no" details="" size="9934446" time="0" location="/home/shuning/.ivy2/cache/org.aspectj/aspectjtools/jars/aspectjtools-1.7.3.jar">
+						<origin-location is-local="false" location="file:/home/shuning/Downloads/activator-1.2.3/repository/org.aspectj/aspectjtools/1.7.3/jars/aspectjtools.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="sbt-revolver">
+			<revision name="0.7.2" status="release" pubdate="20140317104258" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/spray/sbt-revolver" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="0">
+				<license name="Apache License 2.0" url="https://github.com/spray/sbt-revolver/raw/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2003" time="0" location="/home/shuning/.ivy2/cache/scala_2.10/sbt_0.13/io.spray/sbt-revolver/ivy-0.7.2.xml" searched="false" origin-is-local="false" origin-location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.spray/sbt-revolver/scala_2.10/sbt_0.13/0.7.2/ivys/ivy.xml"/>
+				<caller organisation="default" name="spray-example-build" conf="compile" rev="0.7.2" rev-constraint-default="0.7.2" rev-constraint-dynamic="0.7.2" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
+				<artifacts>
+					<artifact name="sbt-revolver" type="jar" ext="jar" status="no" details="" size="105230" time="0" location="/home/shuning/.ivy2/cache/scala_2.10/sbt_0.13/io.spray/sbt-revolver/jars/sbt-revolver-0.7.2.jar">
+						<origin-location is-local="false" location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.spray/sbt-revolver/scala_2.10/sbt_0.13/0.7.2/jars/sbt-revolver.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

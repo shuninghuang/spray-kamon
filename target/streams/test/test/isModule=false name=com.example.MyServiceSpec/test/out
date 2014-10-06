@@ -1,0 +1,10 @@
+[0m[[0minfo[0m] [0mMyServiceSpec[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mMyService should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m return a greeting for GET requests to the root path[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m leave GET requests to other paths unhandled[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m return a MethodNotAllowed error for PUT requests to the root path[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0mTotal for specification MyServiceSpec[0m
+[0m[[0minfo[0m] [0m[36mFinished in 656 ms[0m[0m
+[0m[[0minfo[0m] [0m[36m[0m[36m3 examples, 0 failure, 0 error[0m[0m
